@@ -27,7 +27,7 @@ spec:
           # env = environment in the task definition
           env:
             - name: PODINFO_UI_MESSAGE
-              value: "Hello from Kubernetes"
+              value: "Hello from aku Kubernetes"
             - name: PODINFO_UI_COLOR
               value: "#34577c"
           # readinessProbe = ALB target health check (send traffic only when ready)
