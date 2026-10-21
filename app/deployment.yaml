@@ -33,7 +33,7 @@ spec:
           # readinessProbe = ALB target health check (send traffic only when ready)
           readinessProbe:
             httpGet:
-              path: /readyz
+              path: /ready
               port: 9898
           # livenessProbe = container health check (restart if it fails)
           livenessProbe:
